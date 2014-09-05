@@ -1,0 +1,40 @@
+/* general */
+body {
+	text-align:center;
+  text-rendering: optimizeLegibility;
+}
+
+/* technical */
+.hidden {
+  display: none;
+}
+
+/* theme */
+#presentation {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.center {
+  overflow: visible;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+#presentation.sans {
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+#presentation.mono {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#presentation h1 {
+  font-size: 7em;
+  line-height: 2em;
+}
